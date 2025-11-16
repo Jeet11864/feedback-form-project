@@ -1,0 +1,17 @@
+{
+  "name": "build-a-survey-form-using-html-and-css",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "jeet sarkar",
+  "type": "commonjs",
+  "main": "form.js",
+  "scripts": {
+    "staed": "node ./script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
+W

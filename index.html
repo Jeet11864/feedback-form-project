@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="from_qna">
+      <form action="/script.js">
+        <!-- Name input -->
+
+        <label for="Name" id="lable_name">Name</label>
+        <br />
+        <input
+          type="text"
+          name="Name_user"
+          id="Name"
+          class="all_text_user_input"
+          placeholder="Enter your name"
+          minlength="3"
+          maxlength="20"
+        />
+        <br />
+        <!-- Email Input -->
+        <label for="Email" id="lable_email">Email</label>
+        <br />
+        <input
+          type="email"
+          name="email_user"
+          id="Email"
+          class="all_text_user_input"
+          placeholder="Enter your email"
+        />
+        <br />
+        <!-- age -->
+        <label for="Age" id="lable_age">Age</label>
+        <br />
+        <input
+          type="number"
+          name="Age_user"
+          id="Age"
+          class="all_text_user_input"
+          placeholder="Enter your age"
+          minlength="1"
+          maxlength="3"
+        />
+        <br />
+        <!-- best describes you -->
+        <label for="role" id="role_Leving"
+          >Which option best describes you?</label
+        >
+        <br />
+        <select name="Which option best describes you?" id="role">
+          <option value="student" id="value_Student" class="lable_option">
+            Student
+          </option>
+          <option value="intern" id="value_Intern" class="lable_option">
+            Intern
+          </option>
+          <option
+            value="professional"
+            id="value_Professional"
+            class="lable_option"
+          >
+            Professional
+          </option>
+          <option value="other" id="value_Other" class="lable_option">
+            Other
+          </option>
+        </select>
+        <br />
+        <!-- recommend GeeksforGeeks to a friend -->
+        <p>Would you recommend GeeksforGeeks to a friend?</p>
+
+        <input type="radio" name="suggestions" id="Yes" value="Yes" />
+        <label for="Yes">Yes</label>
+        <br />
+        <input type="radio" name="suggestions" id="No" value="No" />
+        <label for="No">No</label>
+        <br />
+        <input type="radio" name="suggestions" id="Maye" value="Maye" />
+        <label for="Maye">Maybe</label>
+        <br />
+        <!-- Languages and Frameworks -->
+        <p>Languages and Frameworks known (Check all the apply)</p>
+        <input type="checkbox" name="frameWorks" id="C" value="C" />
+        <label for="C">C</label>
+        <br />
+        <input type="checkbox" name="frameWorks" id="C++" value="C++" />
+        <label for="C++">C++</label>
+        <br />
+        <input type="checkbox" name="frameWorks" id="C#" value="C#" />
+        <label for="C#">C#</label>
+        <br />
+        <input type="checkbox" name="frameWorks" id="Python" value="Python" />
+        <label for="Python">Pyhton</label>
+        <br />
+        <input
+          type="checkbox"
+          name="frameWorks"
+          id="Javascript"
+          value="Javascript"
+        />
+        <label for="Javascript">Javascript</label>
+        <br />
+        <input type="checkbox" name="frameWorks" id="React" value="React" />
+        <label for="React">React</label>
+        <br />
+        <input type="checkbox" name="frameWorks" id="Angular" value="Angular" />
+        <label for="Angular">Angular</label>
+        <br />
+        <input type="checkbox" name="frameWorks" id="Django" value="Django" />
+        <label for="Django">Django</label>
+        <br />
+        <input type="checkbox" name="frameWorks" id="Spring" value="Spring" />
+        <label for="Spring">Spring</label>
+        <br />
+        <!-- comments or suggestions textarea -->
+        <p>Any comments or suggestions</p>
+        <label for="comments_or_suggestions"></label>
+        <textarea
+          name="suggestions"
+          id="comments_or_suggestions"
+          placeholder="Everything perfect"
+          minlength="0"
+          maxlength="300"
+          class="all_text_user_input"
+        ></textarea>
+        <br />
+        <!-- submit buttion -->
+        <br />
+        <input type="submit" value="Submit" id="Submit_buttion" />
+        <br />
+      </form>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

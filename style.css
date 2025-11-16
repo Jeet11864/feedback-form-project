@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 97vh;
+  background-color: #ededed;
+  background-image: url(/imge/white-background.jpg);
+}
+form {
+  margin: 0.9rem;
+}
+#from_qna {
+  width: 25%;
+  height: 150%;
+  border-radius: 0.5rem;
+  background-color: #d6d6d6;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.all_text_user_input {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+}
+#lable_name {
+  text-align: center;
+  line-height: 2.5rem;
+}
+#lable_email {
+  text-align: center;
+  line-height: 2.5rem;
+}
+#email {
+  text-align: center;
+  line-height: 2.5rem;
+}
+#lable_age {
+  text-align: center;
+  line-height: 2.5rem;
+}
+#role_Leving {
+  text-align: center;
+  line-height: 2.5rem;
+}
+#role {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 0.4rem;
+  /* text-align: center; */
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.lable_option {
+  border-radius: 1rem;
+  border: 1.5rem solid black;
+}
+#value_Student {
+  border-radius: 0.4rem;
+}
+#comments_or_suggestions {
+  height: 3rem;
+  width: 20rem;
+}
+#Submit_buttion {
+  height: 2rem;
+  width: 20.5rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  font-weight: 600;
+  background-color: #00e300;
+}
